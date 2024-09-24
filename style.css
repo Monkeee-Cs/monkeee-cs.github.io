@@ -38,87 +38,68 @@ body {
     background-color: #00C9FF;
     border-radius: 6px;
 }
-#github {
-    position: fixed;
-    right: 120px;
-    bottom:  165px;
-    font-size: 20px;
-    padding: 2px;
-    transition: 0.3s;
-    color: white;
-    text-decoration: none;
+
+.github-link {
+    margin: 0;
+    position: absolute;
+    top: 12%;
+    left: 95%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
-#github:hover {
+
+.mail-link {
+    margin: 0;
+    position: absolute;
+    top: 12%;
+    left: 91%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+
+.discord-user {
+    margin: 0;
+    position: absolute;
+    top: 12%;
+    left: 87%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.youtube-link {
+    margin: 0;
+    position: absolute;
+    top: 24%;
+    left: 93.5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+.youtube-link:hover {
     transition: 0.3s;
     cursor: pointer;
-    background-color: #00C9FF;
+    background-color: red !important;
     border-radius: 6px;
 }
 
-#mail {
-    position: fixed;
-    right: 80px;
-    bottom: 165px;
-    font-size: 20px;
-    padding: 2px;
-    transition: 0.3s;
-    color: white;
-    text-decoration: none;
+
+.paypal-link {
+    margin: 0;
+    position: absolute;
+    top: 24%;
+    left: 89.5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
-#mail:hover {
-    transition: 0.3s;
-    cursor: pointer;
-    background-color: #00C9FF;
-    border-radius: 6px;
-}
-#discord {
-    position: fixed;
-    right: 140px;
-    bottom: 200px;
-    font-size: 20px;
-    padding: 2px;
-    transition: 0.3s;
-    color: white;
-    text-decoration: none;
-}
-#discord:hover {
+
+.paypal-link:hover {
     transition: 0.3s;
     cursor: pointer;
-    background-color: #00C9FF;
+    background-color: red !important;
     border-radius: 6px;
 }
-#youtube {
-    position: fixed;
-    right: 100px;
-    bottom: 200px;
-    font-size: 20px;
-    padding: 2px;
-    transition: 0.3s;
-    color: white;
-    text-decoration: none;
-}
-#youtube:hover {
-    transition: 0.3s;
-    cursor: pointer;
-    background-color: #FF0000;
-    border-radius: 6px;
-}
-#paypal {
-    position: fixed;
-    right: 60px;
-    bottom: 200px;
-    font-size: 20px;
-    padding: 2px;
-    transition: 0.3s;
-    color: white;
-    text-decoration: none;
-}
-#paypal:hover {
-    transition: 0.3s;
-    cursor: pointer;
-    background-color: #FF0000;
-    border-radius: 6px;
-}
+
 
 .footer-container {
     position: fixed;
@@ -148,14 +129,20 @@ body {
 }
 
 .footer-heading #copyright {
-    margin-bottom: 2rem;
-    position: fixed;
-    right: 740px;
-    bottom: 0px;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 2%;
+    left: 51%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .footer .version {
-    position: fixed;
-    left: 10px;
-    bottom: 10px;
+    margin: 0;
+    position: absolute;
+    bottom: 1%;
+    left: 1.2%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
