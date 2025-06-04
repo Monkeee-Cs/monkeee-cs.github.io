@@ -104,3 +104,23 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.themeMode-dark {
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    top: 3.6%;
+    left: 93%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.themeMode-light {
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    top: 3.6%;
+    left: 93%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
