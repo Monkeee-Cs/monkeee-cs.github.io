@@ -53,7 +53,7 @@ const footer = document.querySelector(".footer");
 const footer_container = document.querySelector(".footer-container");
 const title = document.querySelector("#title");
 const body = document.querySelector("body");
-const link = document.querySelector("#link");
+const link = document.querySelectorAll("#link");
 
 function lightTheme() {    
     body.style.color = "black";
@@ -61,7 +61,9 @@ function lightTheme() {
 
     title.style.border = "2px black solid"
     
-    link.style.color = "black";
+    link.forEach((l) => {
+        l.style.color = "black";
+    });
     
     footer.style.color = "black";
     footer.style.backgroundColor = "rgb(200, 200, 200)";
@@ -73,7 +75,9 @@ function darkTheme() {
     
     title.style.border = "2px white solid"
     
-    link.style.color = "white";
+    link.forEach((l) => {
+        l.style.color = "white";
+    });
     
     footer.style.color = "white";
     footer.style.backgroundColor = "black";

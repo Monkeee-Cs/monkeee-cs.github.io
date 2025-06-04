@@ -115,6 +115,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.themeMode-dark:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #00C9FF;
+    border-radius: 6px;
+}
+
 .themeMode-light {
     font-size: 30px;
     margin: 0;
@@ -123,4 +130,11 @@ body {
     left: 93%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.themeMode-light:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #00C9FF;
+    border-radius: 6px;
 }
