@@ -56,16 +56,16 @@ const body = document.querySelector("body");
 const link = document.querySelectorAll("#link");
 
 function lightTheme() {    
-    body.style.color = "black";
+    body.style.color = "rgb(150, 150, 150)";
     body.style.backgroundColor = "white"
 
     title.style.border = "2px black solid"
     
     link.forEach((l) => {
-        l.style.color = "black";
+        l.style.color = "rgb(150, 150, 150)";
     });
     
-    footer.style.color = "black";
+    footer.style.color = "rgb(150, 150, 150)";
     footer.style.backgroundColor = "rgb(200, 200, 200)";
 }
 
