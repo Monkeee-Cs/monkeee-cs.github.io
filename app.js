@@ -5,9 +5,9 @@ function loadWebsites() {
     const websites = {
         "Square Root": "https://monkeee-cs.github.io/squareRoot/",
         "VST Formulas": "https://monkeee-cs.github.io/vst_forumla/",
-        "dbu-calculator": "https://github.com/Monkeee-code/dbu-calculator",
+        "dbu-calculator": "https://monkeee-code.github.io/dbu-calculator/",
         "dbu-calcualtor-discord": "https://github.com/Monkeee-code/dbu-calculator-discord",
-        "Counter": "https://github.com/Monkeee-Cs/counter",
+        "Counter": "https://monkeee-cs.github.io/counter/",
     }
 
     
